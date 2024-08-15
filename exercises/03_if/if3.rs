@@ -3,11 +3,11 @@ fn animal_habitat(animal: &str) -> &str {
     let identifier = if animal == "crab" {
         1
     } else if animal == "gopher" {
-        2.0
+        2
     } else if animal == "snake" {
         3
     } else {
-        "Unknown"
+        5
     };
 
     // Don't change the expression below!
@@ -23,6 +23,7 @@ fn animal_habitat(animal: &str) -> &str {
 }
 
 fn main() {
+    println!("the animal habitat is {}",animal_habitat("elephant"));
     // You can optionally experiment here.
 }
 

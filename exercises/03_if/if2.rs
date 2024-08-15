@@ -3,11 +3,12 @@ fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
     } else {
-        1
+        "boo"
     }
 }
 
 fn main() {
+    println!(" Is it foo or boo? {}",foo_if_fizz("fizz"));
     // You can optionally experiment here.
 }
 
